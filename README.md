@@ -57,9 +57,6 @@ The business team needed a **Bank Loan Report** that provides:
 ### Power BI Overview Dashboard
 ![Power BI Dashboard](Powerbi%20(dashboard).png)
 
-### Loan Applications Trend
-![Loan Applications](chart_monthly_applications.png)
-
 ### Applications by Month
 ![Applications by Month](Total%20loan%20applications%20by%20month.png)
 
@@ -94,5 +91,4 @@ The business team needed a **Bank Loan Report** that provides:
 
 ---
 
-## 📂 Project Structure
 
