@@ -83,8 +83,7 @@ The objective was to create a comprehensive **Bank Loan Report** to monitor and 
 ![Funded Amount](chart_monthly_funded.png)  
 ![Amount Received](chart_monthly_received.png)  
 
-### Good vs Bad Loan Distribution  
-![Good vs Bad](chart_good_vs_bad.png)  
+https://github.com/Harshalpatil9767/bank-loan-analysis-sql-powerbi-tableau-python/blob/4c49c117d01b49a68a3db3baf9b2089a8870768e/Powerbi%20(dashboard).png
 
 ---
 
