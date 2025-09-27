@@ -53,6 +53,65 @@ The objective was to create a comprehensive **Bank Loan Report** to monitor and 
 
 ---
 
-## 📂 Project Structure  
+---
+
+## 📊 Key Performance Indicators (KPIs)  
+
+- Total Loan Applications  
+- Total Funded Amount  
+- Total Amount Received  
+- Average Interest Rate  
+- Average Debt-to-Income (DTI)  
+- Good vs Bad Loan segmentation  
+- Loan Status Grid  
+
+---
+
+## 🔎 Key Insights  
+
+✔️ **38.5K+ Applications** | 💰 **$435M+ Funded** | 💵 **$473M+ Received**  
+✔️ **December 2021 vs November:** +6.9% Applications, +13% Funded, +15.8% Received  
+✔️ **Good loans** dominate, but **charged-off loans** highlight areas of risk management  
+✔️ Borrower factors such as **employment length, loan purpose, and home ownership** significantly impact lending patterns  
+
+---
+
+## 📸 Sample Visuals  
+
+### Monthly Trends  
+![Applications](chart_monthly_applications.png)  
+![Funded Amount](chart_monthly_funded.png)  
+![Amount Received](chart_monthly_received.png)  
+
+### Good vs Bad Loan Distribution  
+![Good vs Bad](chart_good_vs_bad.png)  
+
+---
+
+## 🎯 Learning Outcomes  
+
+- Built a complete **finance domain analytics pipeline**  
+- Strengthened expertise in **SQL, Python, Power BI, Tableau**  
+- Practiced translating **business problem statements** into **data-driven dashboards**  
+- Learned to integrate **domain knowledge + analytics** for real-world decision-making  
+
+---
+
+## 🚀 Future Enhancements  
+
+- Deploy interactive dashboards on **Tableau Public / Power BI Service**  
+- Extend analysis with **Machine Learning models** for loan default prediction  
+- Automate ETL pipelines for **real-time loan monitoring**  
+
+---
+
+## ✍️ Author  
+
+**Harshal Patil**  
+🎓 MSc Management & Business Analytics (Oxford Brookes University, UK)  
+🔗 [LinkedIn](https://www.linkedin.com/in/harshal-patil01) | [GitHub](https://github.com/HarshalPatil9767)  
+
+---
+
 
 
