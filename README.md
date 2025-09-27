@@ -1,106 +1,94 @@
-# bank-loan-analysis-sql-powerbi-tableau-python
-End-to-end Bank Loan Analysis Project in the finance domain using SQL, Python, Power BI, and Tableau - KPI dashboards, trend analysis, Good vs Bad loans, and actionable insights for portfolio monitoring.
-
 # 📊 Bank Loan Analysis – Finance Domain
 
-An end-to-end **Data Analytics Portfolio Project** in the finance domain, analyzing bank loan data to uncover portfolio health, repayment patterns, and risk indicators.  
-This project demonstrates my ability to combine **domain knowledge** with **data analytics tools (SQL, Python, Power BI, Tableau, Excel)** to deliver real-world business insights.  
+An end-to-end **Data Analytics Project** in the finance domain, analyzing bank loan data to uncover portfolio health, repayment patterns, borrower trends, and risk indicators.  
+This project demonstrates my ability to combine **domain expertise** with **data analytics tools** (SQL, Python, Power BI, Tableau, Excel) to deliver actionable business insights.  
 
 ---
 
-## 🏦 Domain Knowledge  
+## ❓ Problem Statement
 
-Bank loans are a crucial financial tool that enables individuals and businesses to achieve their goals and manage financial needs.  
-Banks analyze loan data to:  
-- Assess **credit risk** and borrower profiles  
-- Improve **decision-making** in loan approvals  
-- Monitor **portfolio performance** and repayments  
-- Detect **fraudulent activities**  
-- Ensure **regulatory compliance** (KYC, HMDA)  
-- Gain **customer insights** and improve profitability  
+Financial institutions deal with thousands of loan applications each month. Monitoring these applications and repayments is critical for:  
+- Ensuring **portfolio health**  
+- Identifying **good vs bad loans**  
+- Managing **credit risk**  
+- Supporting **decision-making** for future lending  
 
----
-
-## ❓ Problem Statement  
-
-The objective was to create a comprehensive **Bank Loan Report** to monitor and assess lending activities and performance.  
-
-### Key KPIs Required:  
-- **Total Loan Applications** – overall, Month-to-Date (MTD), and Month-over-Month (MoM)  
-- **Total Funded Amount** – overall, MTD, and MoM  
-- **Total Amount Received** – overall, MTD, and MoM  
-- **Average Interest Rate** – overall, MTD, and MoM  
-- **Average Debt-to-Income Ratio (DTI)** – overall, MTD, and MoM  
-
-### Good vs Bad Loan KPIs:  
-- **Good Loans (Fully Paid & Current):** Applications, Funded Amount, Received Amount  
-- **Bad Loans (Charged Off):** Applications, Funded Amount, Received Amount  
-
-### Dashboards:  
-1. **Summary Dashboard** – KPIs & Good vs Bad loan comparison  
-2. **Overview Dashboard** – Monthly trends, Regional map, Loan term analysis, Employment length, Loan purpose, Home ownership impact  
-3. **Details Dashboard** – Consolidated grid view of borrower & loan performance  
+The business team needed a **Bank Loan Report** that provides:  
+1. A **Summary Dashboard** with high-level KPIs  
+2. An **Overview Dashboard** with trends, borrower segmentation, and regional insights  
+3. A **Detailed View** of loan statuses for better monitoring  
 
 ---
 
-## 🛠️ Tools & Technologies  
+## ✅ What I Solved & Achieved
 
-- **SQL (MS SQL Server):** Queries for KPI calculations, transformations, loan segmentation  
-- **Python (Pandas, Matplotlib, Jupyter Notebook):** Automated KPIs, MoM analysis, trend charts  
-- **Power BI:** Interactive dashboards (Summary, Good vs Bad, Loan Status Grid)  
-- **Tableau:** Visual storytelling (Regional Analysis, Donut Charts, Bar Charts, Tree Maps)  
-- **Excel/CSV:** Data preprocessing & initial exploration  
+- **Designed KPIs** to measure Total Applications, Funded Amount, Received Amount, Average Interest, and DTI  
+- Built **SQL queries** for data cleaning, transformation, and KPI calculation  
+- Created **Python scripts** for automated KPI generation and monthly trend analysis  
+- Developed **Power BI dashboards** for interactive business insights  
+- Built **Tableau visuals** to explore loan segmentation by purpose, employment, and home ownership  
+- Delivered **Good vs Bad Loan Analysis** to identify risky segments  
+
+### 🔎 Key Insights
+- Processed **38.6K loan applications** with a funded volume of **$435.8M** and repayments of **$473.1M**  
+- **December 2021 vs November 2021** showed:  
+  - +6.9% Applications  
+  - +13% Funded Amount  
+  - +15.8% Received Amount  
+- **Good loans** form the majority (~86%), but **bad loans (13.8%)** highlight areas for better credit checks  
+- Borrower factors such as **employment length, loan purpose, and home ownership** have a significant impact on loan funding and repayment behavior  
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- **SQL (MS SQL Server):** Data extraction, cleaning, KPI queries  
+- **Python (Pandas, Matplotlib, Jupyter Notebook):** Automated trend analysis and visualization  
+- **Power BI:** Interactive dashboards (KPIs, Good vs Bad, Loan Status Grid)  
+- **Tableau:** Segmentation and visual storytelling (Purpose, Term, Employment Length, Region)  
+- **Excel/CSV:** Initial data exploration & preprocessing  
 
 ---
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)  
+## 📸 Visuals & Dashboards
 
-- Total Loan Applications  
-- Total Funded Amount  
-- Total Amount Received  
-- Average Interest Rate  
-- Average Debt-to-Income (DTI)  
-- Good vs Bad Loan segmentation  
-- Loan Status Grid  
+### Power BI Overview Dashboard
+![Power BI Dashboard](Powerbi%20(dashboard).png)
 
----
+### Loan Applications Trend
+![Loan Applications](chart_monthly_applications.png)
 
-## 🔎 Key Insights  
+### Funded Amount Trend
+![Funded Amount](chart_monthly_funded.png)
 
-✔️ **38.5K+ Applications** | 💰 **$435M+ Funded** | 💵 **$473M+ Received**  
-✔️ **December 2021 vs November:** +6.9% Applications, +13% Funded, +15.8% Received  
-✔️ **Good loans** dominate, but **charged-off loans** highlight areas of risk management  
-✔️ Borrower factors such as **employment length, loan purpose, and home ownership** significantly impact lending patterns  
+### Good vs Bad Loan Distribution
+![Good vs Bad Loans](chart_good_vs_bad.png)
 
----
+### Applications by Month
+![Applications by Month](Total%20loan%20applications%20by%20month.png)
 
-## 📸 Sample Visuals  
-
-### Monthly Trends  
-![Applications](chart_monthly_applications.png)  
-![Funded Amount](chart_monthly_funded.png)  
-![Amount Received](chart_monthly_received.png)  
-
-![Dashboard Preview](https://github.com/Harshalpatil9767/bank-loan-analysis-sql-powerbi-tableau-python/blob/4c49c117d01b49a68a3db3baf9b2089a8870768e/Powerbi%20(dashboard).png)
+### Funded Amount by Employment Length
+![Funded by Employment Length](Total%20funded%20amount%20by%20employment%20length%20.png)
 
 ---
 
-## 🎯 Learning Outcomes  
+## 🎯 Business Impact & Usefulness
 
-- Built a complete **finance domain analytics pipeline**  
-- Strengthened expertise in **SQL, Python, Power BI, Tableau**  
-- Practiced translating **business problem statements** into **data-driven dashboards**  
-- Learned to integrate **domain knowledge + analytics** for real-world decision-making  
+✔️ Helps lenders **monitor loan portfolio health** at a glance  
+✔️ Identifies **risk areas** by segmenting good vs bad loans  
+✔️ Provides **borrower insights** (employment, purpose, ownership) for better decision-making  
+✔️ Improves **credit risk assessment** and reduces chances of defaults  
+✔️ Offers an **executive-level dashboard** for strategic financial planning  
 
 ---
 
-## 🚀 Future Enhancements  
+## 🚀 Future Enhancements
 
-- Deploy interactive dashboards on **Tableau Public / Power BI Service**  
-- Extend analysis with **Machine Learning models** for loan default prediction  
-- Automate ETL pipelines for **real-time loan monitoring**  
+- Deploy dashboards on **Tableau Public / Power BI Service** for broader accessibility  
+- Add **Machine Learning models** to predict loan defaults  
+- Automate **ETL pipelines** for real-time monitoring  
 
 ---
 
@@ -112,5 +100,5 @@ The objective was to create a comprehensive **Bank Loan Report** to monitor and 
 
 ---
 
-
+## 📂 Project Structure
 
