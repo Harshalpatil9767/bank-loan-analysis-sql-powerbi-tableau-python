@@ -83,7 +83,7 @@ The objective was to create a comprehensive **Bank Loan Report** to monitor and 
 ![Funded Amount](chart_monthly_funded.png)  
 ![Amount Received](chart_monthly_received.png)  
 
-https://github.com/Harshalpatil9767/bank-loan-analysis-sql-powerbi-tableau-python/blob/4c49c117d01b49a68a3db3baf9b2089a8870768e/Powerbi%20(dashboard).png
+![Dashboard Preview](https://github.com/Harshalpatil9767/bank-loan-analysis-sql-powerbi-tableau-python/blob/4c49c117d01b49a68a3db3baf9b2089a8870768e/Powerbi%20(dashboard).png)
 
 ---
 
