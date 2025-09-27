@@ -60,12 +60,6 @@ The business team needed a **Bank Loan Report** that provides:
 ### Loan Applications Trend
 ![Loan Applications](chart_monthly_applications.png)
 
-### Funded Amount Trend
-![Funded Amount](chart_monthly_funded.png)
-
-### Good vs Bad Loan Distribution
-![Good vs Bad Loans](chart_good_vs_bad.png)
-
 ### Applications by Month
 ![Applications by Month](Total%20loan%20applications%20by%20month.png)
 
